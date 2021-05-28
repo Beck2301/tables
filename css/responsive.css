@@ -1,0 +1,208 @@
+/*Media querys*/
+/*Telefonos*/
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+
+    .laptop {
+        height: 300px !important;
+    }
+
+    .diamante {
+        margin: 0 0 0 45%;
+    }
+
+    .estrella {
+        margin: 0 0 0 45%;
+    }
+    .mf{
+        margin: 0 !important
+    }
+
+    .mistex {
+        text-align: justify;
+        margin: 25px;
+    }
+
+    .logocasa {
+        display: none !important;
+    }
+
+    .navbar-shrink a {
+        color: #051441 !important;
+    }
+
+    .navbar-shrink i {
+        background: #051441;
+    }
+
+    .navbar {
+        background-color: #002c66 !important;
+    }
+
+    .navbar-shrink {
+        background-color: white !important;
+    }
+
+    .al {
+        margin-left: 15%;
+    }
+
+    .correo {
+        margin: -25px 35px 25px -35px !important;
+    }
+
+    .btn_four {
+        margin-left: 40% !important;
+    }
+
+    .f-image {
+        margin-left: 33px;
+    }
+
+    .f-header {
+        text-align: center;
+    }
+    .f-i{
+        margin-left:-12px;
+    }
+    .f-t{
+        margin-left: 25%;
+    }
+    .f-ne{
+        margin-left: 35%;
+    }
+    .f-n{
+        margin-left: 35%;
+    }
+    .f-b {
+        margin-left: 38%;
+    }
+    .f-p {
+        margin-left: 30%;
+    }
+    .footerbg {
+        background: url(../images/footer_bg.png) no-repeat scroll center 0;
+        width: 80% !important;
+        height: 266px;
+        position: absolute;
+        bottom: 0;
+    }
+    .fdatos{
+        flex: auto !important;
+        max-width: 100% !important;
+        margin-bottom:55px;
+    }
+    .fbtn{
+        margin-left: 27%;
+    }
+    .iformc {
+        flex: auto !important;
+        max-width: 100% !important;
+        margin-bottom: 25px;
+    }
+    .iformc2{
+        flex: auto !important;
+        max-width: 100% !important;
+    }
+    #bg{
+        height:500px !important;
+        background-position:center !important;
+     
+
+    }
+    #nosotros{
+        margin-top: -40px  !important; 
+    }
+    .alianzasti {
+        padding:0;
+        font-size: 28px;
+        
+
+    }
+    #logo{
+        height: 65px !important;
+    }
+
+}
+
+
+
+/*Navchange*/
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+        #mainNav .navbar-brand {
+            font-size: 1.5em;
+            transition: font-size 0.3s ease-in-out;
+        }
+
+            #mainNav .navbar-brand img {
+                height: 2rem;
+                transition: height 0.3s ease-in-out;
+            }
+
+        #mainNav.navbar-shrink {
+            -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+            box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            background-color: #ffffff;
+            color: #212529 !important;
+        }
+        
+            #mainNav.navbar-shrink .navbar-brand {
+                font-size: 1.25em;
+            }
+
+                #mainNav.navbar-shrink .navbar-brand svg,
+                #mainNav.navbar-shrink .navbar-brand img {
+                    height: 1.5rem;
+                }
+
+        #mainNav .navbar-nav .nav-item {
+            margin-right: 1rem;
+        }
+
+            #mainNav .navbar-nav .nav-item:last-child {
+                margin-right: 0;
+            }
+
+        #boton .hn{
+            background-color: red!important;
+        }
+
+}
+
+
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-bottom: 12.5rem;
+    }
+
+        header.masthead .masthead-subheading {
+            font-size: 2.25rem;
+            line-height: 2.25rem;
+            margin-bottom: 2rem;
+        }
+
+        header.masthead .masthead-heading {
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 4.5rem;
+            margin-bottom: 4rem;
+        }
+    .alianzasti {
+        padding: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+
+}

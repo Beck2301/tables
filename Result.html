@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Resultado</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
+</head>
+<body>
+    <center><h1 id="titulo"></h1></center>
+    <div id="Resultado">
+<img id="imagen">
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        let params = new URLSearchParams(location.search);
+        var contract = params.get('IdResultado');
+
+        $.get("../data/datosCasatic.txt", function (data) {
+            
+            var json = JSON.parse(data);
+
+            for (var i = 0; i < json.data.length; i++)
+            {
+                var det = json.data[i];
+                if (det.Id == contract)
+                {
+                    $("#titulo").text(det.nombre);
+                    $("#imagen").text(det.image);
+                }
+            }
+
+            console.log(json.data[0].nombre);
+            console.log(json.data.length);
+        });
+
+       
+    });
+</script>
+

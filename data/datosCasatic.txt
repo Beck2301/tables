@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+	"Id":1,
+     "nombre": "3 CORP, S.A. DE C.V.",
+      "telefono": "+1 720 6658734",
+      "email": "carlos.alegria@3corp.biz",
+	  "web":"https://3corp.net/",
+	  "facebook":"https://www.facebook.com/3Corporation/",
+	  "description":"Brindan capacitaciones en temas tecnologicos.Dado que la experiencia que los empapa de conocimiento, se lanzaron al desarrollo de software transaccional especializados para banda.",
+	  "image":"../image/3Corp.png"
+    },
+	 {
+	"Id":2,
+     "nombre": "A & E SISTEMAS, S.A. DE C.V. / AEEGLE",
+      "telefono": "25194525",
+      "email": "info@aeegle.com",
+	  "web":"http://www.aeegle.com",
+	  "facebook":"https://www.facebook.com/AeegleCloud",
+	  "description":"Es una empresa global de servicios y consultor&iacute;a en Cloud Computing, especializada en Google Apps y desarrollo para la nube con oficinas en San Salvador y Panam&aacute;. Desde el 2009 se especializan en entregar soluciones de negocios basadas en la nube, consultor&iacute;a y aplicaciones que son flexibles, robustas y seguras.",
+	  "image":"../image/A&E_SISTEMAS.png"
+    }
+  ]
+}
